@@ -2,7 +2,8 @@
 ※SublimeText3を使用
 
 ## 開いているファイルの階層や親子階層でFinder操作がしたい
-Sublime Filesを入れると、Finderやコマンドを打たずともSublimeだけで操作が出来る。  
+Sublime Filesを入れると、Finderやコマンドを打たずともSublimeだけで  
+別ファイルを開いたり、新規ファイル作ったり、ディレクトリを作ったりが出来るようになる。  
 
 **どうやって**   
 install packageでSublime Filesを入れて、Ctrl+Command+Nキーを押すとポップアップが表示される。  
@@ -13,17 +14,17 @@ install packageでSublime Filesを入れて、Ctrl+Command+Nキーを押すと�
 ## 開いているファイルをブラウザで確認したい
 **どうやって**   
 install packageでView in Browserを入れて、  
-該当ファイル上で右クリック、「View in Brower」を選択すると見れる。  
+該当ファイル上で右クリック、「View in Brower」を選択すると見れるようになる。  
 ただ初期状態は、Firefoxが開くようでChromeにしたかったので、  
-［Preferences］－［Package Settings］－［View In Browser］－［Settings - User］を下記に変更してChromeに変えた。  
+［Preferences］－［Package Settings］－［View In Browser］－［Settings - User］を下記に変更しChromeで開くようにした。  
 ```
 {
 	"browser": "chrome"
 }
 ```
 
-ただ、ローカルサーバーを立てて見たい時もある。  
-そんな時は、SublimeServerを入れると、Gulpなど使わずにローカルサーバーが立てられるので簡単だった。  
+ただ、場合によってはローカルサーバーを立てて見たい時もある。  
+そんな時は、SublimeServerを入れると、Gulpなど使わずにローカルサーバーを立てて見られる。  
 
 install packageからSublimeServerを入れる。  
 ファイル上から、「Tools」- 「SublimeServer」- 「Start SublimeServer」をするとサーバーがStartする。  
